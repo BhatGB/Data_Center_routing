@@ -1,59 +1,73 @@
 package com.datacenter.taskschedular;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-
+import org.apache.log4j.Logger;
 
 public class MysqlConnect {
-	
-	private static final String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String DATABASE_URL = "jdbc:mysql://127.0.0.1:3306/central_server";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "";
-    private static final String MAX_POOL = "250";
 
-    // init connection object
-    private Connection connection;
-    // init properties object
-    private Properties properties;
+	Properties prop = null;
 
-    // create properties
-    private Properties getProperties() {
-        if (properties == null) {
-            properties = new Properties();
-            properties.setProperty("user", USERNAME);
-            properties.setProperty("password", PASSWORD);
-            properties.setProperty("MaxPooledStatements", MAX_POOL);
-        }
-        return properties;
-    }
+	// init connection object
+	private Connection connection;
+	// init properties object
+	private Properties properties;
 
-    // connect database
-    public Connection connect() {
-        if (connection == null) {
-            try {
-                Class.forName(DATABASE_DRIVER);
-                connection = DriverManager.getConnection(DATABASE_URL, getProperties());
-            } catch (ClassNotFoundException | SQLException e) {
-                e.printStackTrace();
-            }
-        }
-        return connection;
-    }
+	private static Logger logger = Logger.getLogger(Controller.class);
+	// create properties
+	private Properties getProperties(Properties prop2) {
 
-    // disconnect database
-    public void disconnect() {
-        if (connection != null) {
-            try {
-                connection.close();
-                connection = null;
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
+		if (properties == null) {
+			properties = new Properties();
+			properties.setProperty("user", prop2.getProperty("USERNAME"));
+			properties.setProperty("password", prop2.getProperty("PASSWORD"));
+			properties.setProperty("MaxPooledStatements", prop2.getProperty("MAX_POOL"));
+		}
+		return properties;
+	}
+
+	// connect database
+	public Connection connect() {
+		Properties prop = null;
+
+		try (InputStream input = new FileInputStream("resources/config.properties")) {
+			prop = new Properties();
+			// load a properties file
+			prop.load(input);
+
+		} catch (IOException ex) {
+			ex.printStackTrace();
+			logger.error("MYSQLConnect.stream_load"+ex.getMessage().toString());
+		}
+
+		if (connection == null) {
+			try {
+				Class.forName(prop.getProperty("DATABASE_DRIVER"));
+				connection = DriverManager.getConnection(prop.getProperty("DATABASE_URL"), getProperties(prop));
+			} catch (ClassNotFoundException | SQLException e) {
+				e.printStackTrace();
+				logger.error("MYSQLConnect.connection:"+e.getMessage().toString());
+			}
+		}
+		return connection;
+	}
+
+	// disconnect database
+	public void disconnect() {
+		if (connection != null) {
+			try {
+				connection.close();
+				connection = null;
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
 
 }

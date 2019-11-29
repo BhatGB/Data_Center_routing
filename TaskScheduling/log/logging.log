@@ -1,0 +1,13 @@
+2019-11-28 02:35:45 INFO  datacenter.taskschedular.Controller:15 - Application Starting.....
+2019-11-28 02:35:45 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-28 02:35:46 ERROR datacenter.taskschedular.Controller:55 - MYSQLConnect.connection:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2019-11-29 12:14:31 INFO  datacenter.taskschedular.Controller:15 - Application Starting.....
+2019-11-29 12:14:31 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - single
