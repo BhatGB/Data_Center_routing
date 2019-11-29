@@ -1,0 +1,233 @@
+2019-11-28 02:35:45 INFO  datacenter.taskschedular.Controller:15 - Application Starting.....
+2019-11-28 02:35:45 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-28 02:35:46 ERROR datacenter.taskschedular.Controller:55 - MYSQLConnect.connection:Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2019-11-29 12:14:31 INFO  datacenter.taskschedular.Controller:15 - Application Starting.....
+2019-11-29 12:14:31 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 13:53:04 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 13:53:05 INFO  datacenter.taskschedular.Controller:154 - Idle jobs--->j001
+2019-11-29 13:53:05 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 13:53:05 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 13:53:05 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 13:53:05 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 13:53:05 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 13:53:05 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 13:56:49 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 13:56:49 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 13:56:49 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 13:56:49 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 13:56:49 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 13:56:49 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 13:56:49 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 13:56:49 ERROR datacenter.taskschedular.Controller:151 - Controller:contentAnalyzerNo operations allowed after statement closed.
+2019-11-29 14:16:21 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 14:16:21 INFO  datacenter.taskschedular.Controller:154 - Idle jobs--->j001
+2019-11-29 14:16:21 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 14:16:21 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 14:16:21 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 14:16:21 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 14:16:21 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 14:16:21 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 14:21:33 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 14:21:33 INFO  datacenter.taskschedular.Controller:154 - Idle jobs--->j001
+2019-11-29 14:21:33 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 14:21:33 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 14:21:33 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 14:21:33 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 14:21:33 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 14:21:33 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:154 - Idle jobs--->j001
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - t009
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 14:25:48 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:154 - Idle jobs--->j001
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 14:26:53 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 14:32:12 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 14:32:13 INFO  datacenter.taskschedular.Controller:154 - Idle jobs--->j001
+2019-11-29 14:32:13 INFO  datacenter.taskschedular.Controller:104 - rowCount1
+2019-11-29 14:32:13 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 14:32:13 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 14:32:13 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 14:32:13 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 14:32:13 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:154 - Idle jobs--->j001
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:129 - t009
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:14:16 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:18:00 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:18:01 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:18:58 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:19:35 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:20:05 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:21:40 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:24:12 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:25:35 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:27:11 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:27:30 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:27:46 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:104 - rowCount2
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:129 - j004
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:129 - t005
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:129 - 3
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:129 - j003
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:129 - t004
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:129 - 2
+2019-11-29 15:30:02 INFO  datacenter.taskschedular.Controller:129 - single
