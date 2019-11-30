@@ -14,7 +14,7 @@ class ControllerTest extends DataCenter{
 
 
 	@Test
-	/*
+	
 	void testidlejobs() throws SQLException {
 		List<String> idlejobsactual= new ArrayList<String>();
 		
@@ -26,7 +26,7 @@ class ControllerTest extends DataCenter{
 		idlejobs.add("j002");
 		assertEquals(idlejobs.get(0), idlejobsactual.get(0));
 		
-	}*/
+	}
 	
 	void testpending_task() throws SQLException
 	{
