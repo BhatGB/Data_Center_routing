@@ -1,13 +1,20 @@
-2019-11-28 02:35:45 INFO  datacenter.taskschedular.Controller:15 - Application Starting.....
-2019-11-28 02:35:45 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
-2019-11-28 02:35:46 ERROR datacenter.taskschedular.Controller:55 - MYSQLConnect.connection:Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2019-11-29 12:14:31 INFO  datacenter.taskschedular.Controller:15 - Application Starting.....
-2019-11-29 12:14:31 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
-2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:104 - rowCount1
-2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:127 - Task inforamtion:
-2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - j003
-2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - t004
-2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - 2
-2019-11-29 12:14:32 INFO  datacenter.taskschedular.Controller:129 - single
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:15 - Application Starting.....
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:32 - Controller_start:
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:160 - Idle jobs--->j001
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:160 - Idle jobs--->j002
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:109 - rowCount2
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:132 - Task inforamtion:
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:134 - j004
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:134 - t005
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:134 - 2
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:134 - single
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:132 - Task inforamtion:
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:134 - j003
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:134 - t009
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:134 - 3
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:134 - single
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:66 - After Rerouting--->
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:73 - Task_idt005
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:74 - New updated job_idj001
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:73 - Task_idt009
+2019-11-30 14:56:16 INFO  datacenter.taskschedular.Controller:74 - New updated job_idj002

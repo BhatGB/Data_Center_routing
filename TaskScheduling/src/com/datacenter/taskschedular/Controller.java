@@ -63,11 +63,16 @@ public class Controller {
 		MysqlConnect mysqlConnect = new MysqlConnect();
 		connect = mysqlConnect.connect();
 		try {
+			logger.info("After Rerouting--->");
 
 			preparedStatement = connect.prepareStatement(SQL);
 			preparedStmt = connect.prepareStatement(sql);
 
 			for (int i = 0; i < idle_job_ids.size(); i++) {
+				
+				logger.info("Task_id"+pending_task[i][1]);
+				logger.info("New updated job_id"+idle_job_ids.get(i));
+				
 				preparedStatement.setString(1, idle_job_ids.get(i));
 				preparedStatement.setInt(2, 0);
 				preparedStatement.setString(3, pending_task[i][1]);
@@ -150,6 +155,7 @@ public class Controller {
 			e.printStackTrace();
 			logger.error("Controller:contentAnalyzer"+e.getMessage().toString());
 		}
+		
 		for (String z : zoom) {
 			logger.info("Idle jobs--->" + z);
 		}
